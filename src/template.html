@@ -17,15 +17,15 @@
     <div class="page-wrapper">
       <header>
         <nav class="nav-wrapper">
-          <ul class="links">
-            <li>
-              <img id="logoImg" />
-            </li>
-            <li>Movies</li>
-            <li>TV Shows</li>
-            <li>People</li>
-            <li>More</li>
-          </ul>
+          <div class="left-menu">
+            <a href="/"><img id="logoImg" /></a>
+            <ul class="links">
+              <li>Movies</li>
+              <li>TV Shows</li>
+              <li>People</li>
+              <li>More</li>
+            </ul>
+          </div>
           <ul class="links">
             <li>
               <img id="plusImg" />
@@ -39,6 +39,19 @@
           </ul>
         </nav>
       </header>
+      <main class="main">
+        <div class="content-wrapper">
+          <div class="title"><h2>Popular Movies</h2></div>
+          <div class="content">
+            <div class="filter-bar">
+              <div class="filter-panel">Sort</div>
+              <div class="filter-panel">Filters</div>
+              <div class="filter-panel">Where To Watch</div>
+            </div>
+            <div class="movies-wrapper" id="movies-wrapper"></div>
+          </div>
+        </div>
+      </main>
     </div>
   </body>
 </html>

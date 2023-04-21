@@ -55,5 +55,8 @@ module.exports = {
       filename: 'index.html',
       template: 'src/template.html'
     })
-  ]
+  ],
+  experiments: {
+    topLevelAwait: true
+  }
 }
